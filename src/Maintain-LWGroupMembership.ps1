@@ -48,7 +48,7 @@ $requestBody = @{
     grant_type    = 'urn:ietf:params:oauth:grant-type:jwt-bearer'
     client_id     = $ClientId
     client_secret = $ClientSecret
-    scope         = 'user,group'
+    scope         = 'user.read,group'
 }
 
 $url = 'https://auth.worksmobile.com/oauth2/v2.0/token'
