@@ -1,0 +1,7 @@
+userid, groupid, operation
+taro@yourcompany, externalKey:group_newcommers, ADD
+jiro@yourcompany, externalKey:group_newcommers, ADD
+hanako@yourcompany, externalKey:group_newgroup, ADD
+hanako@yourcompany, externalKey:group_oldgroup1, REMOVE
+hanako@yourcompany, externalKey:group_oldgroup2, REMOVE
+saburo@yourcompany, externalKey:group_newgroup, ADD
